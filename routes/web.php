@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // })->name('home');
 Route::get('/', [PageController::class, 'index']);
+Route::get('/contatcs', [PageController::class, 'contatcs']);
+Route::get('/info', [PageController::class, 'info']);
+Route::get('/about', [PageController::class, 'about']);

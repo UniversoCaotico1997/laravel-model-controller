@@ -13,14 +13,14 @@ class PageController extends Controller
     }
     public function info()
     {
-        return view('welcome');
+        return view('info');
     }
     public function contatcs()
     {
-        return view('welcome');
+        return view('contatcs');
     }
     public function about()
     {
-        return view('welcome');
+        return view('about');
     }
 }
